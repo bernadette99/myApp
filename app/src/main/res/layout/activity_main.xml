@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false"
+    android:onClick="Test1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="34sp"
+            android:text="SETTINGS"
+
+            android:textColor="@color/teal_700" />
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:paddingTop="34sp"
+            android:text="Mode: "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Mode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="mode"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Hôte: "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/hôte"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hote"
+            android:inputType="textUri" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Port: "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/port"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/port"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="ID Client: "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/IdClient"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/id_client"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="@string/username"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/NomUtilisateur"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="username"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="@string/password"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/MotDePasse"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="password"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Device ID: "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/deviceID"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="device id"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Tracker ID: "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/trackerID"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tracker_id"
+            android:inputType="number" />
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Topic: "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/topic"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/topic"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="OK"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="Test1"
+            android:text="confirm" />
+    </LinearLayout>
+</ScrollView>

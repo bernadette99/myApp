@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="confirm" />
+    <string name="topic">topic</string>
+    <string name="device_id">device_id</string>
+    <string name="username">Username:</string>
+    <string name="id_client">id client</string>
+    <string name="port">port</string>
+    <string name="hote">hote</string>
+    <string name="password">Password:</string>
+    <string name="tracker_id">tracker id</string>
+</resources>
