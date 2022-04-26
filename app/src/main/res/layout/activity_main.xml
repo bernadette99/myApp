@@ -98,14 +98,14 @@
             android:id="@+id/NomUtilisateur"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:hint="username"
+            android:hint="Username"
             android:inputType="text" />
 
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
-            android:text="@string/password"
+            android:text="Password"
             android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -114,7 +114,7 @@
             android:id="@+id/MotDePasse"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:hint="password"
+            android:hint="Password"
             android:inputType="textPassword" />
 
         <TextView
@@ -166,16 +166,10 @@
             android:hint="@string/topic"
             android:inputType="text" />
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="OK"
-            android:textSize="20sp" />
+
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
